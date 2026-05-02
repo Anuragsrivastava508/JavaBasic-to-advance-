@@ -18,8 +18,6 @@ for(int i = 1 ; i <= row; i++){
 }
 
 
-
-
 public static void main(String[] args) {
 RectangleTohollow(4,5);
     
