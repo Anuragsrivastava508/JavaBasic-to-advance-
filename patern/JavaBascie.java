@@ -1,5 +1,3 @@
-package patern;
-
 public class JavaBascie {
   
 public static void main(String[] args) {
