@@ -147,26 +147,26 @@ for (int i = 1; i <= n; i++) {
 }
 
 }
-//  public static void  hollow_rhombus(int n){
-// //outer loop
-// for (int i = 1; i <= n; i++) {
-// //inner loop 
-// //spaces
-// for (int j = 1; j <=(n - i); j++) {
-//     System.out.print(" ");
-// }
-// // star
-// for (int j = 1; j <= n; j++) {
-//     if (i==1 || i== n || j == 1 || j == n){
-//              System.out.print("*");
-//         } else{
-//              System.out.print(" ");
-//         }
-// }
-// System.out.println();
-// }
+ public static void  hollow_rhombus(int n){
+//outer loop
+for (int i = 1; i <= n; i++) {
+//inner loop 
+//spaces
+for (int j = 1; j <=(n - i); j++) {
+    System.out.print(" ");
+}
+// star
+for (int j = 1; j <= n; j++) {
+    if (i==1 || i== n || j == 1 || j == n){
+             System.out.print("*");
+        } else{
+             System.out.print(" ");
+        }
+}
+System.out.println();
+}
 
-//  }
+ }
 
 
  public static void  Diamond(int n){
@@ -199,14 +199,14 @@ for (int i = 1; i <= n; i++) {
     
  }
 public static void main(String[] args) {
-// RectangleTohollow(4,5);
-// Inverted_halfpyrmaid(5);
-// Floyd_triangle(5);    
-// zero_one_triangle(5);
-// Butterfly(4);
-// Solidrhombus(5);
-// hollow_rhombus(5);
-// Diamond(4);
+RectangleTohollow(4,5);
+Inverted_halfpyrmaid(5);
+Floyd_triangle(5);    
+zero_one_triangle(5);
+Butterfly(4);
+Solidrhombus(5);
+hollow_rhombus(5);
+Diamond(4);
 }
 
 
