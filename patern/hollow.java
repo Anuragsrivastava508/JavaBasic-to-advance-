@@ -83,53 +83,53 @@ public static  void zero_one_triangle(int n){
     }
 }
 
-// public static void  Butterfly(int n){
-//     // outer loop
-//     for (int i = 1; i <= n; i++) {
-//         // inner loop 
+public static void  Butterfly(int n){
+    // outer loop
+    for (int i = 1; i <= n; i++) {
+        // inner loop 
         
-//         // star
-// for (int j = 1; j <= i; j++) {
-//     System.out.print("*");
-// }
+        // star
+for (int j = 1; j <= i; j++) {
+    System.out.print("*");
+}
 
-//         //space
-// for (int j = 1; j <=2*(n-i); j++) {
-//     System.out.print(" ");
+        //space
+for (int j = 1; j <=2*(n-i); j++) {
+    System.out.print(" ");
 
-// }
-//         // stars
-//                 // star
-// for (int j = 1; j <= i; j++) {
-//     System.out.print("*");
-// }
-// System.out.println();
+}
+        // stars
+                // star
+for (int j = 1; j <= i; j++) {
+    System.out.print("*");
+}
+System.out.println();
 
-// }
+}
 
-//   // outer loop
-//     for (int i = n; i >= 1; i--) {
-//         // inner loop 
+  // outer loop
+    for (int i = n; i >= 1; i--) {
+        // inner loop 
         
-//         // star
-// for (int j = 1; j <= i; j++) {
-//     System.out.print("*");
-// }
+        // star
+for (int j = 1; j <= i; j++) {
+    System.out.print("*");
+}
 
-//         //space
-// for (int j = 1; j <=2*(n-i); j++) {
-//     System.out.print(" ");
+        //space
+for (int j = 1; j <=2*(n-i); j++) {
+    System.out.print(" ");
 
-// }
-//         // stars
-//                 // star
-// for (int j = 1; j <= i; j++) {
-//     System.out.print("*");
-// }
+}
+        // stars
+                // star
+for (int j = 1; j <= i; j++) {
+    System.out.print("*");
+}
 
-// System.out.println();
-// }
-// }
+System.out.println();
+}
+}
 
 
 // public static void Solidrhombus(int n){
