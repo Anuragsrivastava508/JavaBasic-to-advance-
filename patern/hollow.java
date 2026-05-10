@@ -131,6 +131,11 @@ System.out.println();
 }
 }
 
+//     *****
+//    *****
+//   *****
+//  *****
+// *****
 
 public static void Solidrhombus(int n){
    // outer loop
@@ -147,7 +152,16 @@ for (int i = 1; i <= n; i++) {
 }
 
 }
- public static void  hollow_rhombus(int n){
+
+
+
+
+//     *****
+//    *   *
+//   *   *
+//  *   *
+// *****
+public static void  hollow_rhombus(int n){
 //outer loop
 for (int i = 1; i <= n; i++) {
 //inner loop 
