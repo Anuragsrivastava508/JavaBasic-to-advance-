@@ -6,6 +6,7 @@ public class array__ps {
 public static void Printing_Input(){
     Scanner SC = new Scanner(System.in);
     int marks [] = new int[3];
+    System.out.println("enter your number");
 for (int i = 0; i < marks.length; i++) {
     marks[i] = SC.nextInt();
     marks[i] = marks[i] + 1;
