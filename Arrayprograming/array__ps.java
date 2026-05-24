@@ -16,14 +16,14 @@ public class array__ps {
 // System.out.println("the marks of CHEM :" + marks[2]);
 
 // }
-// public static int Linear_Search(int num[], int key) {
-//     for (int i = 0; i < num.length; i++) {
-//         if (num[i] == key) {
-//             return i;
-//         }
-//     }
-//     return -1;
-// }
+public static int Linear_Search(int num[], int key) {
+    for (int i = 0; i < num.length; i++) {
+        if (num[i] == key) {
+            return i;
+        }
+    }
+    return -1;
+}
   
 public static void Largest_Number(int num[]){
     int samllest = Integer.MAX_VALUE;
