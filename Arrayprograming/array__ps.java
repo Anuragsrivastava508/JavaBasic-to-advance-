@@ -44,13 +44,13 @@ public static void Largest_Number(int num[]){
     //   Printing_Input();
     int num[] = {1,2,3,4,5,6,7,8,9};
     Largest_Number(num);
-    // int key = 8;
-    // int index = Linear_Search(num, key);
-    // if (index == -1) {
-    //     System.out.print("not found the key ");
-    // }
-    // else{
-    //     System.out.println("found the key at index " + index);
-    // }
+    int key = 8;
+    int index = Linear_Search(num, key);
+    if (index == -1) {
+        System.out.print("not found the key ");
+    }
+    else{
+        System.out.println("found the key at index " + index);
+    }
     }
 }
