@@ -4,7 +4,7 @@ public  static  void  maxsubarry_sum(int number[]){
     int cuurent;
     int maxsum =Integer.MIN_VALUE;
     for (int i = 0; i < number.length; i++) {
-        int start = i ;     
+        int start = i ;
         for (int j = i; j < number.length; j++) {
             int end = j;
             cuurent = 0;
